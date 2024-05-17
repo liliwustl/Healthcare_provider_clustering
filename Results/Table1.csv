@@ -1,0 +1,19 @@
+
+### Table 1 in Simulation Results ###
+                                     Method   m mean median        SD  per        RI
+1                Poisson with 3 groups SCAD  50 3.05      3 0.2190429 0.95 0.9976408
+2                Poisson with 3 groups SCAD 100 3.01      3 0.1000000 0.99 0.9972566
+3                  Poisson with 3 groups LC  50 3.00      3 0.0000000 1.00 0.9996816
+4                  Poisson with 3 groups LC 100 3.00      3 0.0000000 1.00 0.9996808
+5               Logistic with 3 groups SCAD  50 3.09      3 0.2876235 0.91 0.9458204
+6               Logistic with 3 groups SCAD 100 3.08      3 0.2726599 0.92 0.9530384
+7                 Logistic with 3 groups LC  50 2.98      3 0.1407053 0.98 0.9391265
+8                 Logistic with 3 groups LC 100 3.00      3 0.0000000 1.00 0.9518949
+9  Overdispersed Poisson with 3 groups SCAD  50 3.12      3 0.3834980 0.90 0.9916245
+10 Overdispersed Poisson with 3 groups SCAD 100 3.08      3 0.2726599 0.92 0.9910727
+11   Overdispersed Poisson with 3 groups LC  50 3.26      3 0.6133202 0.83 0.9864000
+12   Overdispersed Poisson with 3 groups LC 100 3.26      3 0.6608840 0.86 0.9931818
+13               Poisson with 5 groups SCAD  50 5.07      5 0.3554766 0.90 0.9934857
+14               Poisson with 5 groups SCAD 100 5.06      5 0.2386833 0.94 0.9962646
+15                 Poisson with 5 groups LC  50 4.59      4 0.8656754 0.09 0.9859265
+16                 Poisson with 5 groups LC 100 5.47      6 0.8343025 0.09 0.9937414
