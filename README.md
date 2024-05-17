@@ -1,4 +1,4 @@
-This repository contains R code for implementing health care provider clustering using fusion penalty in quasilikelihood.
+This repository contains R code for implementing health care provider clustering using fusion penalty in quasi-likelihood.
 
 ### Repository Contents
 
