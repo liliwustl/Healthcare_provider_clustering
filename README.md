@@ -10,7 +10,7 @@ Contained within the "Code_for_simulation" directory are the following files:
 
 "functions_count.R": This file contains R code utilized for fitting count outcomes, such as the Poisson model. Similar to the binary outcomes code, xi=c(0.21,0.23,0.25,0.27,0.3) represents the lambda values in our dataset, adjustable based on the dataset.
 
-“Generate Simulated data”This file contains R code utilized for generating simulated dataset in our paper. 
+“Generate Simulated data”This file contains R code utilized for generating simulated dataset in our paper. The user can adjust the parameters and data distribution as needed. 
 
 "functions_negative_binomial.R": This file contains R code utilized for fitting negative binomial model. Similar to the binary outcomes code, xi=c(0.21,0.23,0.25,0.27,0.3) represents the lambda values in our dataset, adjustable based on the dataset.
 
