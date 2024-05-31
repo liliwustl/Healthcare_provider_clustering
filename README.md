@@ -1,18 +1,22 @@
-This repository contains R code for implementing health care provider clustering using fusion penalty in quasi-likelihood.
+This repository contains R code for implementing health care provider clustering using fusion penalty in quasilikelihood. The completed code and results are available at https://github.com/liliwustl/quasi-likelihood
 
 ### Repository Contents
 
 ###Code_for_simulation Directory:
 
+Restrictions apply to the availability of real data, which was used under license for this study. The readers can request if they have interest:
+https://www.srtr.org/requesting-srtr-data/data-requests/
+We also include a mock dataset.
+
 Contained within the "Code_for_simulation" directory are the following files:
 
-"functions_binary.R": This file contains R code for fitting binary outcomes. In the code, the lambda values in our dataset are represented by xi=c(0.21,0.23,0.25,0.27,0.3), which can be adjusted based on the dataset.
+"functions_binary.R": This file contains R code for fitting binary outcomes. 
 
-"functions_count.R": This file contains R code utilized for fitting count outcomes, such as the Poisson model. Similar to the binary outcomes code, xi=c(0.21,0.23,0.25,0.27,0.3) represents the lambda values in our dataset, adjustable based on the dataset.
+"functions_count.R": This file contains R code utilized for fitting count outcomes, such as the Poisson model. 
 
-“Generate Simulated data”This file contains R code utilized for generating simulated dataset in our paper. The user can adjust the parameters and data distribution as needed. 
+"functions_negative_binomial.R": This file contains R code utilized for fitting negative binomial model. 
 
-"functions_negative_binomial.R": This file contains R code utilized for fitting negative binomial model. Similar to the binary outcomes code, xi=c(0.21,0.23,0.25,0.27,0.3) represents the lambda values in our dataset, adjustable based on the dataset.
+"Generate Simulated data”This file contains R code utilized for generating simulated dataset in our paper. The user can adjust the parameters and data distribution as needed.
 
 "Figure1supp.R": Utilized to generate Figure 1 in the supplementary material.
 
@@ -21,6 +25,8 @@ Contained within the "Code_for_simulation" directory are the following files:
 "Table2.R": Utilized to generate Table 2 in the manuscript.
 
 "Table3.R": Utilized to generate Table 3 in the manuscript.
+
+"Table4-5.R": Utilized to generate Table 4 and Table 5 in the manuscript.
 
 "master.R": A comprehensive script that navigates through our study, reproducing all results including tables and figures from the article, with a single command.
 
@@ -44,6 +50,7 @@ Simulated data directory includes the dataset in the simulation study, which are
 
 "5groups-100" contains the 100 datasets in Example 4 with m=100
 
+
 ###Results Directory:
 
 The "Results" directory contains all the intermediate results obtained from running the corresponding dataset in the Simulated data through our code.
@@ -57,6 +64,9 @@ Table 2:  Table 2 in the manuscript.
 
 Table 3:  Table 3 in the manuscript.
 
+Table 4:  Table 4 in the manuscript.
+
+Table 5:  Table 5 in the manuscript.
 
 
 #### Session Information
